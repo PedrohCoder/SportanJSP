@@ -1,0 +1,51 @@
+.login {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: start;
+}
+.login > div button,
+.login > div input {
+  border-radius: 0.2rem;
+  outline: none;
+  border: none;
+}
+.login > div > input {
+  padding: 0.3rem;
+  width: 12rem;
+  border: solid 1px #b2afaf;
+}
+.login > div > label {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+#email {
+  margin-bottom: 1rem;
+}
+.login > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+  font-size: 1.5rem;
+}
+.login > div > button {
+  align-self: center;
+  width: 100%;
+  padding: 1rem 0rem;
+  margin-top: 1rem;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  background-color: #b93131;
+  color: white;
+}
+.login span {
+  font-size: 1rem;
+  color: #b93131;
+  font-weight: 400;
+}

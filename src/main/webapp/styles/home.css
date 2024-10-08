@@ -1,0 +1,31 @@
+.banner {
+  background-image: url("../assets/Banner.png");
+  background-size: cover;
+  background-position: center;
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+  height: 25em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  z-index: 2;
+}
+.banner-text > h1:nth-child(1) {
+  font-size: 90px;
+  font-weight: 400;
+  font-family: "Source Serif 4";
+}
+.banner-text > h1:nth-child(2) {
+  font-size: 120px;
+}
+.banner-text {
+  display: flex;
+  flex-direction: column;
+}
+.banner-text > h1 {
+  padding: 0;
+  margin: 0;
+}
