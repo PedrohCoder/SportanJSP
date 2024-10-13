@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sportan</title>
     <!-- Usando request.getContextPath() para carregar os estilos corretamente -->
-    <link rel="stylesheet" href="./styles/home.css" />
-    <link rel="stylesheet" href="./styles/nav.module.css" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/nav.module.css" />
+    <link rel="stylesheet" href="../styles/catalogo.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -34,6 +35,133 @@
         </div>
       </div>
     </nav>
+    <main>
+      <div class="title">
+        <h1>Catálogo</h1>
+        <div class="filter">
+          <h2>Filtrar</h2>
+        </div>
+      </div>
+      <div class="product-grid">
+        <a href="./produto.html">
+        <div class="product">
+          <img src="https://passaportefc.com/wp-content/uploads/2020/03/Design-sem-nome-683x1024.jpg" alt="Camisa Santos Autografada Elenco">
+          <div class="product-info">
+            <h2>Camisa Santos Autografada Elenco</h2>
+            <span>R$2499,99</span>
+          </div>
+        </div>
+        </a>
+        <a href="./produto.html">
+        <div class="product">
+          <img src="https://passaportefc.com/wp-content/uploads/2020/03/Design-sem-nome-683x1024.jpg" alt="Camisa Santos Autografada Elenco">
+          <div class="product-info">
+            <h2>Camisa Santos Autografada Elenco</h2>
+            <span>R$2499,99</span>
+          </div>
+        </div>
+        </a>
+        <a href="./produto.html">
+        <div class="product">
+          <img src="https://passaportefc.com/wp-content/uploads/2020/03/Design-sem-nome-683x1024.jpg" alt="Camisa Santos Autografada Elenco">
+          <div class="product-info">
+            <h2>Camisa Santos Autografada Elenco</h2>
+            <span>R$2499,99</span>
+          </div>
+        </div>
+        </a>
+        <a href="./produto.html">
+        <div class="product">
+          <img src="https://passaportefc.com/wp-content/uploads/2020/03/Design-sem-nome-683x1024.jpg" alt="Camisa Santos Autografada Elenco">
+          <div class="product-info">
+            <h2>Camisa Santos Autografada Elenco</h2>
+            <span>R$2499,99</span>
+          </div>
+        </div>
+        </a>
+        <a href="./produto.html">
+        <div class="product">
+          <img src="https://passaportefc.com/wp-content/uploads/2020/03/Design-sem-nome-683x1024.jpg" alt="Camisa Santos Autografada Elenco">
+          <div class="product-info">
+            <h2>Camisa Santos Autografada Elenco</h2>
+            <span>R$2499,99</span>
+          </div>
+        </div>
+        </a>
+        <a href="./produto.html">
+        <div class="product">
+          <img src="https://passaportefc.com/wp-content/uploads/2020/03/Design-sem-nome-683x1024.jpg" alt="Camisa Santos Autografada Elenco">
+          <div class="product-info">
+            <h2>Camisa Santos Autografada Elenco</h2>
+            <span>R$2499,99</span>
+          </div>
+        </div>
+        </a>
+        <a href="./produto.html">
+        <div class="product">
+          <img src="https://passaportefc.com/wp-content/uploads/2020/03/Design-sem-nome-683x1024.jpg" alt="Camisa Santos Autografada Elenco">
+          <div class="product-info">
+            <h2>Camisa Santos Autografada Elenco</h2>
+            <span>R$2499,99</span>
+          </div>
+        </div>
+        </a>
+        <a href="./produto.html">
+        <div class="product">
+          <img src="https://passaportefc.com/wp-content/uploads/2020/03/Design-sem-nome-683x1024.jpg" alt="Camisa Santos Autografada Elenco">
+          <div class="product-info">
+            <h2>Camisa Santos Autografada Elenco</h2>
+            <span>R$2499,99</span>
+          </div>
+        </div>
+        </a>
+        <a href="./produto.html">
+        <div class="product">
+          <img src="https://passaportefc.com/wp-content/uploads/2020/03/Design-sem-nome-683x1024.jpg" alt="Camisa Santos Autografada Elenco">
+          <div class="product-info">
+            <h2>Camisa Santos Autografada Elenco</h2>
+            <span>R$2499,99</span>
+          </div>
+        </div>
+        </a>
+        <a href="./produto.html">
+        <div class="product">
+          <img src="https://passaportefc.com/wp-content/uploads/2020/03/Design-sem-nome-683x1024.jpg" alt="Camisa Santos Autografada Elenco">
+          <div class="product-info">
+            <h2>Camisa Santos Autografada Elenco</h2>
+            <span>R$2499,99</span>
+          </div>
+        </div>
+        </a>
+        <a href="./produto.html">
+        <div class="product">
+          <img src="https://passaportefc.com/wp-content/uploads/2020/03/Design-sem-nome-683x1024.jpg" alt="Camisa Santos Autografada Elenco">
+          <div class="product-info">
+            <h2>Camisa Santos Autografada Elenco</h2>
+            <span>R$2499,99</span>
+          </div>
+        </div>
+        </a>
+        <a href="./produto.html">
+        <div class="product">
+          <img src="https://passaportefc.com/wp-content/uploads/2020/03/Design-sem-nome-683x1024.jpg" alt="Camisa Santos Autografada Elenco">
+          <div class="product-info">
+            <h2>Camisa Santos Autografada Elenco</h2>
+            <span>R$2499,99</span>
+          </div>
+        </div>
+        </a>
+        <a href="./produto.html">
+        <div class="product">
+          <img src="https://passaportefc.com/wp-content/uploads/2020/03/Design-sem-nome-683x1024.jpg" alt="Camisa Santos Autografada Elenco">
+          <div class="product-info">
+            <h2>Camisa Santos Autografada Elenco</h2>
+            <span>R$2499,99</span>
+          </div>
+        </div>
+        </a>
+    </div>
+    </main>
     <!-- Carregando o script corretamente -->
     <script src="./script.js"></script>
   </body>

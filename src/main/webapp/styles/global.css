@@ -7,8 +7,11 @@ body {
 
 body,
 input,
-button {
+button,
+a, a:visited {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   margin: 0;
+  text-decoration: none;
+  color: black;
 }
