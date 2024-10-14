@@ -1,0 +1,52 @@
+.account-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    width: 100%;
+}
+.user-account {
+    display: flex;
+    border-bottom: gray solid 1px;
+    padding: 0 2rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.user-account > div > button {
+    background-color: #b93131;
+    color: white;
+    border: none;
+    height: 3rem;
+    width: 5rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.user-account > div{
+    display: flex;
+    gap: 2rem;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.title > h1 {
+    margin-left: 5vw;
+    font-size: 3rem;
+
+}
+.filter{
+    margin-right: 5vw;
+    padding: 0 4rem;
+    border-radius: 0.3rem;
+    color: white;
+    background-color: #B93131;
+}
+.filter > h2 {
+    font-size: 1.5rem;
+}

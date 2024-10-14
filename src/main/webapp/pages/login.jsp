@@ -25,14 +25,18 @@
   <body>
     <nav>
       <!-- Adicionando request.getContextPath() para as imagens -->
-      <img class="logo" src="/assets/Logo.svg" alt="Logo" />
+      <img class="logo" src="../assets/Logo.svg" alt="Logo" />
       <div class="icons">
-        <img class="search" src="<%= request.getContextPath() %>/assets/Search.svg" alt="Search" />
-        <img class="account" src="<%= request.getContextPath() %>/assets/Account.svg" alt="Account" />
+        <img class="search" src="../assets/Search.svg" alt="Search" />
+        <a href="./login.jsp">
+          <img class="account" src="../assets/Account.svg" alt="Account" />
+        </a>
+        <a href="./carrinho.jsp">
         <div class="cart">
-          <img class="cart-icon" src="<%= request.getContextPath() %>/assets/Cart.svg" alt="Cart" />
+          <img class="cart-icon" src="../assets/Cart.svg" alt="Cart" />
           <span class="cart-counter"></span>
         </div>
+      </a>
       </div>
     </nav>
     <form class="login">
