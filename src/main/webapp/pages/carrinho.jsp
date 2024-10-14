@@ -27,7 +27,7 @@
       <img class="logo" src="../../assets/Logo.svg" alt="Logo" />
       <div class="icons">
         <img class="search" src="../../assets/Search.svg" alt="Search" />
-        <a href="./login.jsp">
+        <a href="../login.jsp">
           <img class="account" src="../../assets/Account.svg" alt="Account" />
         </a>
         <a href="./carrinho.jsp">
